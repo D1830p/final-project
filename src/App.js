@@ -1,6 +1,6 @@
 import React from 'react';
 import Info from './Components/Info';
-import Txs from './Components/txs';
+import Transactions from './Components/Transactions';
 import Allowance from './Components/Allowance';
 import Rewards from './Components/Rewards';
 import './index';
@@ -12,7 +12,7 @@ class App extends React.Component {
         <Info />
         <br />
         Transfer Balance:
-        <Txs />
+        <Transactions />
         <br />
         Allowance:
         <Allowance />

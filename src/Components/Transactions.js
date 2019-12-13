@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 //import { ethers } from 'ethers'
 //const abi = require('../abi')
 
-export default class txs extends Component {
+export default class Transactions extends Component {
     constructor() {
         super()
         this.state = {

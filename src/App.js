@@ -7,7 +7,7 @@ class App extends React.Component {
 
     return (
       <div className="App" id="root">
-        <p>Hello World!</p>
+
       </div>
     );
   }

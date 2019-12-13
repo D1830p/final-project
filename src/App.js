@@ -1,6 +1,7 @@
 import React from 'react';
-import Info from './Components/Info'
-import Txs from './Components/txs'
+import Info from './Components/Info';
+import Txs from './Components/txs';
+import Allowance from './Components/Allowance';
 import './index';
 
 class App extends React.Component {
@@ -13,6 +14,8 @@ class App extends React.Component {
         Transfer Balance:
         <Txs />
         <br />
+        Allowance:
+        <Allowance />
       </div>
     );
   }

@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#hero {
+  background-image: url("https://images.unsplash.com/photo-1545990569-98afd2e72852?ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80");
+  background-size: cover;
 }

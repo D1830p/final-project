@@ -4,6 +4,7 @@ import Transactions from './Components/Transactions';
 import Allowance from './Components/Allowance';
 import Rewards from './Components/Rewards';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 import './index';
 
 class App extends React.Component {
@@ -14,18 +15,20 @@ class App extends React.Component {
 
         <div id="main" className="flex">
           <div className="px-4 py-2 w-full md:w-1/2">
-        <Info />
+            <Info />
 
-        <Transactions />
+            <Transactions />
 
-        <Allowance />
+            <Allowance />
 
-        <Rewards />
+            <Rewards />
           </div>
 
           <div id="hero" className="hidden md:block w-1/2">
           </div>
         </div>
+
+        <Footer />
       </div>
     );
   }

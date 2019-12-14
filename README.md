@@ -8,3 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To start the app.
 This is just basic react app that shows some json data that stored locally in json file according to the state of the component.
+
+# Submitted by
+Dharti Parikh
+101227440
